@@ -182,7 +182,7 @@ ul{
 
 .hero-img{
 	display: inline-block;
-	background-image: linear-gradient(to left,rgba(0,0,0,.95),rgba(0,0,0,.88)),url('hero.png');
+	background-image: linear-gradient(to left,rgba(0,0,0,.6),rgba(0,0,0,.1)),url('hero.png');
 	width: 50vw;
 	min-height: 268px;
 	background-size: cover;
