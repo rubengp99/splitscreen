@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <title>SPLITSCREEN.GG</title>
+</head>
+<body oncontextmenu='return false'>
+    <nav class="navbar">        
+        <ul>
+            <li class="brand">
+                <a style="font-style: italic;font-weight: bold;font-size: 40px;font-family: Arial, Helvetica, sans-serif;" >SPLITSCREEN.GG</a>
+            </li>           
+            <li style="float: right;margin: 17px 15px;">
+                <strong><a href=""><span style="color: #0DE4AF;">BALANCE</span> &nbsp; 234.20</a></strong>
+            </li>
+            <li style="float: right;margin: 17px 15px;">
+               <strong> <a href="account_stats.html">ACCOUNT</a></strong>
+            </li>
+            <li style="float: right;margin: 17px 15px;">
+                <strong><a href="">TEAMS</a></strong>
+            </li>
+            <li style="display: none;" class="menu">
+                <i class="fas fa-bars" style="color:white;"></i>
+            </li>
+        </ul>
+        <ul style="display: none;" class="menu-dropdown">
+            <li>
+               <a href="" style="line-height: 50px;"><strong>TEAMS</strong></a>
+            </li>
+             <li>
+               <a href="account_stats.html" style="line-height: 50px;"><strong>ACCOUNT</strong></a>
+            </li>
+            <li>
+               <a href="" style="line-height: 50px;"><strong><span style="color: #0DE4AF;">BALANCE</span> &nbsp; 234.00</strong></a>
+            </li>
+            
+        </ul>
+    </nav>
+    <!-- STAT BOXES -->
+    <section class="stats-main">
+        <ul style="padding: 0;">
+            <li>
+                <!-- PROFILE BOX -->
+                <section class="stats-box major profile">
+                    <br>
+                    <h1 style="color: #0DE4AF;">PROFILE</h1>
+                    <ul style="padding: 0">
+                        <li>
+                            <span style="line-height: 30px;">USERNAME</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;text-align: center;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">PASSWORD</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;text-align: center;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">BATTLENET NAME</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;text-align: center;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span style="line-height: 30px;">ACTIVISION ID</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;text-align: center;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span style="line-height: 30px;">XBOX USERNAME</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;text-align: center;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span style="line-height: 30px;">PSN USERNAME</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;text-align: center;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <br>
+                </section>
+            </li>
+            <!-- ACCOUNT BALANCE BOX -->
+             <li>
+                <section class="stats-box minor balance">
+                    <br>
+                    <h1 style="color: #0DE4AF;">BALANCE</h1>
+                    <ul style="padding: 0">
+                        <li>
+                            <span style="line-height: 30px;">PAYPAL</span>
+                            <div class="input-edit pp">
+                                <input type="text" style="height: 30px;" disabled="">
+                                <div class="btn edit" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">EDIT</a>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">BALANCE</span>
+                            <div class="input-edit">
+                                <div class="input_black input_fix">
+                                    <p style="margin: 0;line-height: 30px">234.00</p>
+                                </div>
+                                <div class="btn" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">ADD</a>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">DEPOSIT</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;width: 50%;">
+                                <div class="btn" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px" class="confirm">CONFIRM</a>
+                                </div>
+                            </div>
+                        </li>
+                        <p style="display: block;color:#eeeeee;font-size: 11px;margin-left: 115px;margin-top: -10px;">$99,999,990 = 99,999,990 CREDITS</p>
+                        <li>
+                            <span style="line-height: 30px;">WITHDRAW</span>
+                            <div class="input-edit">
+                                <input type="text" style="height: 30px;width: 50%;">
+                                <div class="btn" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px" class="confirm">CONFIRM</a>
+                                </div>
+                            </div>
+                        </li>
+                        <p style="display: block;color:#eeeeee;font-size: 11px;margin-left: 115px;margin-top: -10px;">99,999,990 CREDITS = $99,999,990</p>
+                    </ul>
+                    <br>
+                    <p style="display: block;color:#eeeeee;font-size: 12px;margin-top: 16.5px;">WITHDRAWALS CAN TAKE UP TO 5 BUSINESS DAYS.</p>
+                </section>
+            </li>
+            <!-- ACCOUNT TEAMS BOX -->
+            <li>
+                <section class="stats-box major">
+                    <br>
+                    <h1 style="color: #0DE4AF;">TEAMS</h1>
+                    <ul style="padding: 0" class="teams">
+                        <li>
+                            <span style="line-height: 30px;">TEAM #1</span>
+                            <div class="input-edit" style="width: 80%;">
+                                <input type="text" style="height: 30px;width: 60%;text-align: center;" disabled="" value="HOBO'S BOIS 1">
+                                <div class="btn manage" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">MANAGE</a>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">TEAM #2</span>
+                            <div class="input-edit" style="width: 80%">
+                                <input type="text" style="height: 30px;width: 60%;text-align: center;" disabled="" value="HOBO'S BOIS 2">
+                                <div class="btn manage" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">MANAGE</a>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">TEAM #3</span>
+                            <div class="input-edit" style="width: 80%">
+                                <input type="text" style="height: 30px;width: 60%;text-align: center;" disabled="" value="HOBO'S BOIS 3">
+                                <div class="btn manage" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">MANAGE</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span style="line-height: 30px;">TEAM #4</span>
+                            <div class="input-edit" style="width: 80%">
+                                <input type="text" style="height: 30px;width: 60%;text-align: center;" disabled="" value="HOBO'S BOIS 4">
+                                <div class="btn manage" style="transform: translate(-4px,0);height: 30px;">
+                                    <a style="line-height: 30px">MANAGE</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span style="line-height: 30px;">TEAM #5</span>
+                            <div  class="input-edit">
+                                <div class="btn create create_team" style="height: 30px;width: calc(60% + 111.11px);padding: 0;">
+                                    <span style="margin-right: auto;"><i class="fas fa-plus"></i></span>
+                                    <a style="line-height: 30px">CREATE TEAM</a>
+                                </div>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                    <br>
+                </section>
+            </li>
+            <!-- MATCHS STATS, WINS, WIN RATE... -->
+            <li>
+                <section class="stats-box minor STATS" style="padding-bottom: 71px">
+                    <br>
+                    <h1 style="color: #0DE4AF;">STATS</h1>
+                    <ul style="padding: 0">
+                        <li>
+                            <span style="line-height: 30px;">TOTAL WINS</span>
+                            <div class="input-edit">
+                                <div class="account_stats">
+                                    <p>999</p>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">GAMES PLAYED</span>
+                            <div class="input-edit">
+                                <div class="account_stats">
+                                    <p>100,000,000</p>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <span style="line-height: 30px;">WIN RATE</span>
+                            <div class="input-edit">
+                                <div class="account_stats">
+                                    <p>9.99%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span style="line-height: 30px;">LEVEL</span>
+                            <div class="input-edit">
+                                <div class="progress" data-label="178">
+                                    <span class="value" style="width:70%;"></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+        </ul>
+    </section>
+    <section class="popup create_team_popup hidden">
+            <div class="close">
+                <span class="X"></span>
+                <span class="Y"></span>
+            </div>
+            <form action="#">
+                <ul style="padding: 10px 20px;">
+                    <li>
+                        <a style="float: left;line-height: 30px;">TEAM NAME</a>
+                        <input type="text" class="input_black" style="width: 70%;">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #1</a>
+                        <input type="text" class="input_black" style="width: 70%;">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #2</a>
+                        <input type="text" class="input_black" style="width: 70%;">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #3</a>
+                        <input type="text" class="input_black" style="width: 70%;">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #4</a>
+                        <input type="text" class="input_black" style="width: 70%;">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #5</a>
+                        <input type="text" class="input_black" style="width: 70%;">
+                    </li>
+                    <a style="color: white;line-height: 50px;font-size: 14px;">ADD UP TO 5 MEMBERS</a>
+                    <li>
+                        <button type="submit" class="btn" style="display: block;margin: auto;border: 0;">
+                            <a style="line-height: 30px;color: black; font-size: 16px;"><strong>CREATE TEAM</strong></a>
+                        </button>
+                    </li>
+                </ul>
+            </form>  
+        </section>
+        <section class="popup-overlay hidden">
+            <section class="popup manage_team_popup_1 hidden">
+                <div class="close">
+                    <span class="X"></span>
+                    <span class="Y"></span>
+                </div>
+                <form action="#">
+                    <ul style="padding: 10px 20px;">
+                        <li>
+                            <button class="btn edit_team" style="display: block;margin: auto;border: 0;">
+                                <a style="line-height: 30px;color: black; font-size: 16px;"><strong>EDIT TEAM</strong></a>
+                            </button>                         
+                        </li>
+
+                        <br>
+
+                        <li>
+                            <button class="btn" style="display: block;margin: auto;border: 0;">
+                                <a style="line-height: 30px;color: black; font-size: 16px;"><strong>DELETE TEAM</strong></a>
+                            </button>
+                        </li>
+                    </ul>
+                </form>  
+            </section>      
+        <section class="popup  manage_team_popup_2 hidden">
+            <div class="close">
+                <span class="X"></span>
+                <span class="Y"></span>
+            </div>
+            <form action="#">
+                <ul style="padding: 10px 20px;">
+                    <li>
+                        <a style="float: left;line-height: 30px;">TEAM NAME</a>
+                        <input type="text" class="input_black" style="width: 70%;" value="TEAM NAME">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #1</a>
+                        <input type="text" class="input_black" style="width: 70%;" value="MEMBER NAME #1">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #2</a>
+                        <input type="text" class="input_black" style="width: 70%;"  value="MEMBER NAME #2">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #3</a>
+                        <input type="text" class="input_black" style="width: 70%;"  value="MEMBER NAME #3">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #4</a>
+                        <input type="text" class="input_black" style="width: 70%;" value="MEMBER NAME #4">
+                    </li>
+                    <br>
+                    <li>
+                        <a style="float: left;line-height: 30px;">MEMBER #5</a>
+                        <input type="text" class="input_black" style="width: 70%;"  value="MEMBER NAME #5">
+                    </li>
+                    <a style="color: white;line-height: 50px;font-size: 14px;">EDIT YOUR TEAM</a>
+                    <li>
+                        <button type="submit" class="btn" style="display: block;margin: auto;border: 0;">
+                            <a style="line-height: 30px;color: black; font-size: 16px;"><strong>UPDATE TEAM</strong></a>
+                        </button>
+                    </li>
+                </ul>
+            </form> 
+        </section>   
+    </section>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
